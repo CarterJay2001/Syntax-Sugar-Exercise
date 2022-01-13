@@ -8,9 +8,7 @@ namespace SyntaxSugarExercise
         {
             var answer = 10;
 
-            var response = (answer < 9) ? $"{answer} is less than nine" : $"{answer} greater than or equal to nine";
-
-            Console.WriteLine(response);
+            Console.WriteLine((answer < 9) ? $"{answer} is less than nine" : $"{answer} greater than or equal to nine");
         }
     }
 }
